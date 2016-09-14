@@ -55,7 +55,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : https://zhizheng.github.io
+  # BASE_PATH : https://zhizheng.github.io
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -64,8 +64,7 @@ JB :
   # ex: 
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
-  #
-  ASSET_PATH : https://zhizheng.github.io/assets/themes/twitter
+  # ASSET_PATH : https://zhizheng.github.io/assets/themes/twitter
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
@@ -127,5 +126,4 @@ JB :
   # Setting any helper's provider to 'custom' will bypass the helper code
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
-  # where [HELPER] is the name of the helper you are overriding.
-  
+# where [HELPER] is the name of the helper you are overriding.
