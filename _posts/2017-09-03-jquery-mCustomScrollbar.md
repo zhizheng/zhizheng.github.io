@@ -8,7 +8,7 @@ tags : [jQuery,scrollbar,plugin]
 {% include JB/setup %}
 # jQuery 滚动条插件
 ---
-当页面出现滚动条时，页面内容会向左发生偏移，jquery mCustomScrollbar 解决了这个问题。
+当页面出现滚动条时，页面内容会向左发生偏移，jquery mCustomScrollbar 插件解决了这个问题。
 
 1. 下载插件  
 [https://github.com/malihu/malihu-custom-scrollbar-plugin/releases](https://github.com/malihu/malihu-custom-scrollbar-plugin/releases){:target="_blank"}
