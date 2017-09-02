@@ -82,11 +82,11 @@ JB :
   comments :
     provider : false
     disqus :
-      short_name : jekyllbootstrap
+      short_name : 123
     livefyre :
       site_id : 123
     intensedebate :
-      account : 123abc
+      account : 123
     facebook :
       appid : 123
       num_posts: 5
@@ -100,7 +100,7 @@ JB :
   analytics :
     provider : false 
     google : 
-        tracking_id : 'UA-50637568-1'
+        tracking_id : ''
     getclicky :
       site_id : 
     mixpanel :
