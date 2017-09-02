@@ -20,7 +20,8 @@ tags : [jQuery,scrollbar,plugin]
 	<script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
 ```
 
-<!--break-->  
+<!--break-->
+
 3. 插件初始化  
 在 head 元素中添加
 ```
