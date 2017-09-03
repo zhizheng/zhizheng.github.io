@@ -1,13 +1,11 @@
 html, body{ height: 100%; }
-a:hover {text-decoration: none;}
-.container-narrow {
-    margin: 100px auto 0;
-}
-
 body{ background: url("img/body_bg.png") repeat;}
+
 h1{
     font-family: Arial,"楷体";
 }
+a:hover {text-decoration: none;}
+
 .fa.fa-arrow-circle-right{
     margin-right: 15px;
 }
@@ -27,7 +25,9 @@ h1{
   margin: 0 auto;
   max-width: 900px;}
 
-
+.container-narrow {
+    margin: 50px auto 0;
+}
 
 .card { 
   max-width: 900px;
