@@ -1,6 +1,6 @@
 ---
 layout: page
-title: IT笔记
+title: 羽毛笔记
 tagline: 这，是一个寂寞的世界……
 ---
 {% include JB/setup %}

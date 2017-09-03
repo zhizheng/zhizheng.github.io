@@ -18,7 +18,14 @@ a:hover {text-decoration: none;}
 .navbar .nav {  
   float: right; }
 
+.navbar .brand {
+	padding: 5px 20px 3px;
+}
 
+.navbar .brand img {
+	width: 38px;
+	height: 38px;
+}
 
 /*page container -- card style -- */
 .nav-narrow{  
