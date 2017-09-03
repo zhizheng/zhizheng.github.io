@@ -11,7 +11,7 @@ tags : [jQuery,scrollbar,plugin]
 当页面出现滚动条时，页面内容会向左发生偏移，jquery mCustomScrollbar 插件解决了这个问题，
 
 1.下载插件  
-[https://github.com/malihu/malihu-custom-scrollbar-plugin/releases](https://github.com/malihu/malihu-custom-scrollbar-plugin/releases){:target="_blank"}
+[https://github.com/malihu/malihu-custom-scrollbar-plugin/releases](https://github.com/malihu/malihu-custom-scrollbar-plugin/releases){:target="_blank"}{:rel="nofollow noopener noreferrer"}
 
 2.在页面引入相关资源  
 ```
@@ -45,4 +45,4 @@ html, body{ height: 100%; }
 </script>
 ```
 
-参考资料：[http://manos.malihu.gr/jquery-custom-content-scroller/](http://manos.malihu.gr/jquery-custom-content-scroller/){:target="_blank"}
+参考资料：[http://manos.malihu.gr/jquery-custom-content-scroller/](http://manos.malihu.gr/jquery-custom-content-scroller/){:target="_blank"}{:rel="nofollow noopener noreferrer"}
