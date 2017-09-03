@@ -71,9 +71,9 @@
 	<script src="{{ ASSET_PATH }}/js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script>
 		(function($){
-			$("pre").addClass("prettyprint").addClass("linenums");
-			prettyPrint();
 			$(window).on("load",function(){
+				$("pre").addClass("prettyprint").addClass("linenums");
+				prettyPrint();
 				$("body").mCustomScrollbar({
 					theme:"minimal-dark",
 					autoHideScrollbar:true,  // 是否自动隐藏滚动条
