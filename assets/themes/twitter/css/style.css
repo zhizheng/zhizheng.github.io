@@ -19,7 +19,8 @@ a:hover {text-decoration: none;}
   float: right; }
 
 .navbar .brand {
-	padding: 5px 20px 3px;
+	padding: 5px 0 3px;
+	margin-left: 0;
 }
 
 .navbar .brand img {
