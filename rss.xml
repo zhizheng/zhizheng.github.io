@@ -9,6 +9,7 @@ title : RSS Feed
 		<title>{{ site.title }}</title>
 		<description>{{ site.title }} - {{ site.author.name }}</description>
 		<link>{{ site.production_url }}{{ site.rss_path }}</link>
+		<atom:link href="{{ site.production_url }}{{ site.rss_path }}" rel="self" type="application/rss+xml" />
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 		<ttl>1800</ttl>
@@ -21,6 +22,5 @@ title : RSS Feed
 			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 		</item>
 		{% endfor %}
-		<atom:link href="{{ site.production_url }}{{ site.rss_path }}" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>
