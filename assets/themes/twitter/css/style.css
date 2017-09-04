@@ -16,7 +16,9 @@ a:hover {text-decoration: none;}
   }
 
 .navbar .nav {  
-  float: right; }
+	float: right; 
+	margin: 0;
+}
 
 .navbar .brand {
 	padding: 5px 0 3px;
