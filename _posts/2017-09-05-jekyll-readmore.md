@@ -1,13 +1,13 @@
 ---
 layout: post
-title: jekyll 摘要功能实现
+title: jekyll 摘要实现
 date: 2017-09-05 14:00:01 +0800
 category : it
 tagline: "Supporting tagline"
 tags : [jekyll,readmore]
 ---
 {% include JB/setup %}
-# jekyll 摘要功能实现
+# jekyll 摘要实现
 ---
 目前，可以实现 jekyll 摘要功能的主要方法有：  
 
@@ -30,5 +30,5 @@ tags : [jekyll,readmore]
 以上几种方法中，推荐使用第 3 种。
 
 参考资料：  
-1.[http://www.cnblogs.com/coderzh/p/jekyll-readmore.html](http://www.cnblogs.com/coderzh/p/jekyll-readmore.html){:target="_blank"}{:rel="nofollow noopener noreferrer"}  
-2.[http://danishmujeeb.com/blog/2012/07/maintaning-read-more-links-when-moving-from-drupal-to-jekyll/](http://danishmujeeb.com/blog/2012/07/maintaning-read-more-links-when-moving-from-drupal-to-jekyll/){:target="_blank"}{:rel="nofollow noopener noreferrer"}  
+1.[jekyll-readmore](http://www.cnblogs.com/coderzh/p/jekyll-readmore.html){:target="_blank"}{:rel="nofollow noopener noreferrer"}  
+2.[maintaning-read-more-links-when-moving-from-drupal-to-jekyll](http://danishmujeeb.com/blog/2012/07/maintaning-read-more-links-when-moving-from-drupal-to-jekyll/){:target="_blank"}{:rel="nofollow noopener noreferrer"}  

@@ -127,3 +127,32 @@ a:hover {text-decoration: none;}
 .page.card{
     background:url("img/card_bg.jpg") repeat top center;
 }
+
+/* pagination */
+.pagination .left {
+	width: 200px;
+	float: left;
+	text-align: left;
+}
+
+.pagination .middle {
+	position: absolute;
+	left: 200px;
+	right: 200px;
+	text-align: center;
+	z-index: -1;
+}
+
+.pagination .right {
+	width: 200px;
+	float: right;
+	text-align: right;
+}
+
+.pagination .previous {
+	margin-left: 10px;
+}
+
+.pagination .next {
+	margin-right: 10px;
+}

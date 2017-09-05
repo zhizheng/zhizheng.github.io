@@ -46,4 +46,4 @@ html, body{ height: 100%; }
 </script>
 ```
 
-参考资料：[http://manos.malihu.gr/jquery-custom-content-scroller/](http://manos.malihu.gr/jquery-custom-content-scroller/){:target="_blank"}{:rel="nofollow noopener noreferrer"}
+参考资料：[jquery-custom-content-scroller](http://manos.malihu.gr/jquery-custom-content-scroller/){:target="_blank"}{:rel="nofollow noopener noreferrer"}
