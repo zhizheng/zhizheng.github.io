@@ -87,21 +87,21 @@ plugins:
 3.css
 ```
 .pagination .left {
-	width: 200px;
+	width: 100px;
 	float: left;
 	text-align: left;
 }
 
 .pagination .middle {
 	position: absolute;
-	left: 200px;
-	right: 200px;
+	left: 100px;
+	right: 100px;
 	text-align: center;
 	z-index: -1;
 }
 
 .pagination .right {
-	width: 200px;
+	width: 100px;
 	float: right;
 	text-align: right;
 }
