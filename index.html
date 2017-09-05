@@ -20,32 +20,32 @@ tagline: 这，是一个寂寞的世界……
 	<div class="read_more">
 		<a class="fa fa-link" href="{{ BASE_PATH }}{{ post.url }}" rel="bookmark">查看全文&hellip;</a>
 	</div>
-</div>
+  </div>
 {% endfor %}
 
-<!-- Pagination links -->
-<div class="pagination">
-	<div class="left">
-	  {% if paginator.previous_page %}
-		<a href="/" class="first">首页</a>
-		<a href="{{ paginator.previous_page_path }}" class="previous">前一页</a>
-	  {% else %}
-		<span class="first">首页</span>
-		<span class="previous">前一页</span>
-	  {% endif %}
-	</div>
-	<div class="middle">
-	  <span class="page_number ">第 {{ paginator.page }} 页/共 {{ paginator.total_pages }} 页</span>
-	</div>
-	<div class="right">
-	  {% if paginator.next_page %}
-		<a href="{{ paginator.next_page_path }}" class="next">后一页</a>
-		<a href="/{{site.paginate_path | split:':' | first }}{{ paginator.total_pages }}/" class="last">尾页</a>
-	  {% else %}
-		<span class="next ">后一页</span>
-		<span class="last ">尾页</span>
-	  {% endif %}
-	</div>
-</div>
-
-
+{% if paginator.total_pages > 1 %}
+  <!-- Pagination links -->
+  <div class="pagination">
+    <div class="left">
+      {% if paginator.previous_page %}
+      <a href="{{ BASE_PATH }}/" class="first">首页</a>
+      <a href="{{ paginator.previous_page_path }}" class="previous">前一页</a>
+      {% else %}
+      <span class="first">首页</span>
+      <span class="previous">前一页</span>
+      {% endif %}
+    </div>
+    <div class="middle">
+      <span class="page_number ">第 {{ paginator.page }} 页/共 {{ paginator.total_pages }} 页</span>
+    </div>
+    <div class="right">
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">后一页</a>
+      <a href="{{ BASE_PATH }}/{{site.paginate_path | split:':' | first }}{{ paginator.total_pages }}/" class="last">尾页</a>
+      {% else %}
+      <span class="next">后一页</span>
+      <span class="last">尾页</span>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
