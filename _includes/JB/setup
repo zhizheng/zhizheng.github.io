@@ -5,12 +5,17 @@
   {% if site.JB.setup.provider == "custom" %}
     {% include custom/setup %}
   {% else %}
-    {% if site.safe and site.JB.BASE_PATH and site.JB.BASE_PATH != '' %}
+    {% if site.JB.BASE_PATH and site.JB.BASE_PATH != '' %}
       {% assign BASE_PATH = site.JB.BASE_PATH %}
-      {% assign HOME_PATH = site.JB.BASE_PATH %}
+      {% capture HOME_PATH %}{{ site.JB.BASE_PATH }}/{% endcapture %}
     {% else %}
-      {% assign BASE_PATH = nil %}
-      {% assign HOME_PATH = "/" %}
+		{% if site.baseurl and site.baseurl != '' %}
+			{% assign BASE_PATH = site.baseurl %}
+			{% capture HOME_PATH %}{{ site.baseurl }}/{% endcapture %}
+		{% else %}
+			{% assign BASE_PATH = nil %}
+			{% assign HOME_PATH = "/" %}
+		{% endif %}
     {% endif %}
 
     {% if site.JB.ASSET_PATH %}
