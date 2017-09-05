@@ -15,7 +15,7 @@ tagline: 这，是一个寂寞的世界……
 			{{ post.date | date:"%Y" }}
 		</div>
 	</div>
-	{{ post.content | split:"<!--break-->" | first }}
+	{{ post.excerpt }}
 	<div class="read_more">
 		<a class="fa fa-link" href="{{ BASE_PATH }}{{ post.url }}" rel="bookmark">查看全文&hellip;</a>
 	</div>

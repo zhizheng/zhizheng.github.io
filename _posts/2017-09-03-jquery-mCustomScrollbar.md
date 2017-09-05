@@ -1,6 +1,7 @@
 ---
 layout: post
 title: jQuery 滚动条插件
+date: 2017-09-03 10:24:58 +0800
 category : it
 tagline: "Supporting tagline"
 tags : [jQuery,scrollbar,plugin]
@@ -19,7 +20,7 @@ tags : [jQuery,scrollbar,plugin]
 <script src="/js/jquery-1.11.0.min.js"></script>
 <script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
 ```
-<!--break-->
+<!-- more -->
 3.插件初始化  
 在 head 元素中添加
 ```

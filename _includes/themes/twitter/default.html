@@ -72,8 +72,10 @@
 	<script>
 		(function($){
 			$(window).on("load",function(){
+				// prettyprint
 				$("pre").addClass("prettyprint").addClass("linenums");
 				prettyPrint();
+				// mCustomScrollbar
 				$("body").mCustomScrollbar({
 					theme:"minimal-dark",
 					autoHideScrollbar:true,  // 是否自动隐藏滚动条

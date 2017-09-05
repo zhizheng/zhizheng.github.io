@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 本地运行 jekyllcn
+date: 2017-09-05 02:00:01 +0800
 category : it
 tagline: "Supporting tagline"
 tags : [jekyll,jekyllcn,windows]
@@ -17,11 +18,9 @@ git clone https://github.com/xcatliu/jekyllcn.git
 cd jekyllcn
 bundle install
 ```
-不要执行下面这条命令，我因为执行了这条命令，导致第 3 步启动一直报错，后来根据错误信息，删除了一些新版本的包，安装了旧版本（2016 最新），才启动不报错，如：删除 jekyll-feed 0.9.2，安装 0.8.0；删除 jekyll-redirect-from 0.12.1，安装 0.10.0 等......
-```
-gem update
-```
-<!--break-->
+不要执行下面这条命令，我因为执行了这条命令，导致第 3 步启动一直报错，后来根据错误信息，删除了一些新版本的包，安装了旧版本（2016 最新），才启动不报错，如：删除 jekyll-feed 0.9.2，安装 0.8.0；删除 jekyll-redirect-from 0.12.1，安装 0.10.0 等......  
+~~gem update~~  
+<!-- more -->
 3.启动
 ```
 bundle exec rake site:preview
