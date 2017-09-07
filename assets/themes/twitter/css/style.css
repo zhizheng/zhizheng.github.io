@@ -11,6 +11,10 @@ a:hover {text-decoration: none;}
 }
  
 /*navbar bgcolor -- float*/
+.navbar {
+	/*position: relative;*/
+}
+
 .navbar .navbar-inner{ 
   background-color: #00a9a9;
   }
@@ -155,4 +159,16 @@ a:hover {text-decoration: none;}
 
 .pagination .next {
 	margin-right: 10px;
+}
+
+/* to-top */
+.to-top { 
+	display: none; 
+	padding: 0 20px; 
+	color: #fff; 
+	background-color: #00a9a9;
+}
+
+a.to-top:hover {
+	color: #fff; 
 }
