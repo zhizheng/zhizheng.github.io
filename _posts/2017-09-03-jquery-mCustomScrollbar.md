@@ -16,9 +16,9 @@ tags : [jQuery,scrollbar,plugin]
 
 2.在页面引入相关资源  
 ```
-<link href="/css/jquery.mCustomScrollbar.min.css" rel="stylesheet">
-<script src="/js/jquery-1.11.0.min.js"></script>
-<script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<link href="css/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 ```
 <!-- more -->
 3.插件初始化  
@@ -38,7 +38,6 @@ html, body{ height: 100%; }
     (function($){
         $(window).on("load",function(){
             $("body").mCustomScrollbar({
-                theme:"minimal-dark",
                 autoHideScrollbar:true
             });
         });
