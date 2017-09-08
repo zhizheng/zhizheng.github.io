@@ -192,10 +192,18 @@ a:hover {
 	clear: both;
 }
 
+.footer .container{
+   display:table;
+   height:100%; 
+}
+
+.footer .row{
+   display: table-cell;
+   vertical-align: middle;
+}
 .copyright {
     font-size: 1em;
 	margin: 0;
-padding: 20px 0;
 }
 
 .copyright a {
