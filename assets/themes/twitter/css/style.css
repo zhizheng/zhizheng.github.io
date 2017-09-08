@@ -5,6 +5,9 @@ html, body{
 }
 body{ 
 	background: url("img/body_bg.png") repeat;
+	position: relative;   /*重要！保证footer是相对于wapper位置绝对*/  
+    height: auto;          /* 保证页面能撑开浏览器高度时显示正常*/  
+    min-height: 100%  /* IE6不支持，IE6要单独配置*/ 
 }
 h1{
     font-family: Arial,"楷体";
@@ -52,8 +55,10 @@ a:hover {
 }
 
 .container-narrow {
-    margin: 50px auto 0;
+    margin: 0 auto;
 	min-height: 100%;
+	padding-top: 50px;
+	padding-bottom: 120px; /*重要！给footer预留的空间*/  
 }
 
 .card { 
@@ -176,11 +181,10 @@ a:hover {
 
 /* footer */
 .footer {
-	position: relative;
-	margin-top: 50px;
+	position: absolute;
+    height: 70px;         /* footer的高度一定要是固定值*/  
 	bottom: 0;
 	margin-bottom: 0;
-	padding: 20px 0;
 	width: 100%;
 	color: #fff;
 	background-color: #373f48;
@@ -190,6 +194,7 @@ a:hover {
 .copyright {
     font-size: 1em;
 	margin: 0;
+padding: 20px 0;
 }
 
 .copyright a {
