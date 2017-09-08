@@ -1,10 +1,20 @@
-html, body{ height: 100%; }
-body{ background: url("img/body_bg.png") repeat;}
-
+html, body{ 
+	height: 100%; 
+	margin: 0;
+	padding: 0;
+}
+body{ 
+	background: url("img/body_bg.png") repeat;
+}
 h1{
     font-family: Arial,"楷体";
 }
-a:hover {text-decoration: none;}
+a:hover {
+	text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
 
 .fa.fa-arrow-circle-right{
     margin-right: 15px;
@@ -12,12 +22,13 @@ a:hover {text-decoration: none;}
  
 /*navbar bgcolor -- float*/
 .navbar {
+	margin-bottom: 0;
 	/*position: relative;*/
 }
 
 .navbar .navbar-inner{ 
   background-color: #00a9a9;
-  }
+}
 
 .navbar .brand {
 	padding: 5px 0 3px;
@@ -37,23 +48,25 @@ a:hover {text-decoration: none;}
 /*page container -- card style -- */
 .nav-narrow{  
   margin: 0 auto;
-  max-width: 900px;}
+  max-width: 900px;
+}
 
 .container-narrow {
     margin: 50px auto 0;
+	min-height: 100%;
 }
 
 .card { 
   max-width: 900px;
   background:#fff; 
-  }
+ }
 
 .container-narrow > hr { 
-  margin: 30px 0; }
+  margin: 30px 0; 
+}
 
 .read_more {
   padding: 10px 0 20px;
-
   background-color: #fff;
 }
 
@@ -161,14 +174,45 @@ a:hover {text-decoration: none;}
 	margin-right: 10px;
 }
 
+/* footer */
+.footer {
+	position: relative;
+	margin-top: 50px;
+	bottom: 0;
+	margin-bottom: 0;
+	padding: 20px 0;
+	width: 100%;
+	color: #fff;
+	background-color: #373f48;
+	clear: both;
+}
+
+.copyright {
+    font-size: 1em;
+	margin: 0;
+}
+
+.copyright a {
+    color: #fff;
+}
+
+.copyright a:hover {
+    color: #00a9a9;
+}
+
 /* to-top */
 .to-top { 
 	display: none; 
-	padding: 0 20px; 
-	color: #fff; 
-	background-color: #00a9a9;
+	background-color: #777;
+	color: #eee;
+	font-size: 40px;
+	line-height: 1;
+	text-align: center;
+	text-decoration: none;
+	overflow: hidden;
+	width: 46px;
+	height: 46px;
+	border: none;
+	opacity: .8;
 }
 
-a.to-top:hover {
-	color: #fff; 
-}
