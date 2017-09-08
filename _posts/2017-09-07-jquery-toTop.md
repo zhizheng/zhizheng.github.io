@@ -9,18 +9,18 @@ tags : [jQuery,top]
 {% include JB/setup %}
 # jQuery 返回顶部插件
 ---
-1. 下载插件  
+1.下载插件  
 [https://github.com/mmkjony/jQuery.toTop](https://github.com/mmkjony/jQuery.toTop){:target="_blank"}{:rel="nofollow noopener noreferrer"}  
-2. 在页面引入相关资源  
+2.在页面引入相关资源  
 ```
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.toTop.min.js"></script>
 ```
-3. 在页面中添加返回顶部按钮  
+3.在页面中添加返回顶部按钮  
 ```
 <a class="to-top">Top</a>
 ```
-4. 插件初始化  
+4.插件初始化  
 ```
 $('.to-top').toTop();
 ```
