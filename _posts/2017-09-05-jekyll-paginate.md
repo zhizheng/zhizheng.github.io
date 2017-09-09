@@ -2,6 +2,7 @@
 layout: post
 title: jekyll 分页实现
 date: 2017-09-05 16:10:01 +0800
+lastmod: 2017-09-10 04:15:30 +0800
 category : it
 tagline: "Supporting tagline"
 tags : [jekyll,paginate]

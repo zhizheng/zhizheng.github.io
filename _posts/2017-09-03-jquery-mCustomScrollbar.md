@@ -2,6 +2,7 @@
 layout: post
 title: jQuery 滚动条插件
 date: 2017-09-03 10:24:58 +0800
+lastmod: 2017-09-10 04:15:30 +0800
 category : it
 tagline: "Supporting tagline"
 tags : [jQuery,scrollbar,plugin]
