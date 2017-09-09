@@ -1,8 +1,9 @@
 ---
 # Remember to set production_url in your _config.yml file!
 title : Sitemap
+index: 7
 ---
 {% for page in site.pages %}
-{{site.production_url}}{{ page.url }}{% endfor %}
+{% if page.title != null %}{{site.production_url}}{{ page.url }}{% endif %}{% endfor %}
 {% for post in site.posts %}
 {{site.production_url}}{{ post.url }}{% endfor %}
