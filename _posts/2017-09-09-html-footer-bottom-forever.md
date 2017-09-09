@@ -54,5 +54,5 @@ body{
 }
 ```
 参考资料：  
-- [div+css简单实现固定底部](http://blog.sina.com.cn/s/blog_818a1e5b0100wlu6.html)
-- [如何将页脚固定在页面底部(多种方法实现)](http://www.jb51.net/web/76954.html)
+- [div+css简单实现固定底部](http://blog.sina.com.cn/s/blog_818a1e5b0100wlu6.html){:target="_blank"}{:rel="nofollow noopener noreferrer"}
+- [如何将页脚固定在页面底部(多种方法实现)](http://www.jb51.net/web/76954.html){:target="_blank"}{:rel="nofollow noopener noreferrer"}
