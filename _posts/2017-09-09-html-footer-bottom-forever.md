@@ -36,7 +36,7 @@ html, body{
 }
 body{ 
     position: relative;   /* 重要！保证footer是相对于body位置绝对 */  
-    height: auto;         /* 保证页面能撑开浏览器高度时显示正常*/  
+    height: auto;         /* 保证页面能撑开浏览器高度时显示正常 */  
     min-height: 100% ;
 }
 .content {
