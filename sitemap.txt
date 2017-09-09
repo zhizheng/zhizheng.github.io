@@ -3,7 +3,7 @@
 title : Sitemap
 index: 7
 ---
-{% for page in site.pages %}
+{% assign sorted_pages = site.pages | sort:"index" %}{% for page in sorted_pages %}
 {% if page.title != null %}{{site.production_url}}{{ page.url }}{% endif %}{% endfor %}
 {% for post in site.posts %}
 {{site.production_url}}{{ post.url }}{% endfor %}
