@@ -13,8 +13,8 @@ tags : [html,footer,bottom]
 1.html
 ```
 <body>
-    <div class="navbar">
-        导航
+    <div class="header">
+        页首
     </div>
 
     <div class="content">
@@ -46,7 +46,7 @@ body{
 }
 .footer {
     position: absolute;
-    height: 100px;         /* footer的高度一定要是固定值*/  
+    height: 100px;         /* footer的高度一定要是固定值 */  
     bottom: 0;
     width: 100%;
     clear: both;
