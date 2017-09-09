@@ -44,5 +44,5 @@ title : Sitemap
 ```
 <!-- more -->
 参考资料：  
-- [generating-a-sitemap-in-jekyll-without-a-plugin](http://davidensinger.com/2013/03/generating-a-sitemap-in-jekyll-without-a-plugin/)
-- [https://en.wikipedia.org/wiki/Sitemaps](https://en.wikipedia.org/wiki/Sitemaps)
+- [generating-a-sitemap-in-jekyll-without-a-plugin](http://davidensinger.com/2013/03/generating-a-sitemap-in-jekyll-without-a-plugin/){:target="_blank"}{:rel="nofollow noopener noreferrer"}
+- [https://en.wikipedia.org/wiki/Sitemaps](https://en.wikipedia.org/wiki/Sitemaps){:target="_blank"}{:rel="nofollow noopener noreferrer"}
