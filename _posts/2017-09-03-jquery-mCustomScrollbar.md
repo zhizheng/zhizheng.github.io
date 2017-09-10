@@ -19,22 +19,15 @@ tags : [jQuery,scrollbar,plugin]
 #### 2. 在页面引入相关资源  
 ```
 <link href="css/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+<style>
+    html, body{ height: 100%; }
+</style>
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 ```
 <!-- more -->
 
 #### 3. 插件初始化
-在 head 元素中添加
-```
-<style>
-    html, body{ height: 100%; }
-</style>
-```
-或在 css 文件中添加
-```
-html, body{ height: 100%; }
-```
 在 body 元素中添加如下脚本
 ```
 <script>
