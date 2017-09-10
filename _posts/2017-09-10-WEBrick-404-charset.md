@@ -17,7 +17,9 @@ WEBrick 遇到 404 错误时，返回错误编码。
 WEBrick/1.3.1 (Ruby/2.2.6) 
  
 #### 2. WEBrick 返回信息  
-`Content-Type: text/html; charset=ISO-8859-1, text/html; charset=UTF-8`，第一个 `text/html; charset=ISO-8859-1` 是 WEBrick 返回的，  第二个 `text/html; charset=UTF-8` 是 404 页面返回的。  
+Content-Type: text/html; charset=ISO-8859-1, text/html; charset=UTF-8
+
+第一个 `charset=ISO-8859-1` 是 WEBrick 返回的，  第二个 `charset=UTF-8` 是 404 页面返回的。  
 
 #### 3. 引发问题的 WEBrick 相关代码  
 文件 \<Ruby Home\>\lib\ruby\2.2.0\webrick\httpresponse.rb  
@@ -37,7 +39,7 @@ def set_error(ex, backtrace=false)
 
 ## 二、解决方法
 #### 1. 本地环境  
-将文件 httpresponse.rb 中的  `@header['content-type'] = "text/html; charset=ISO-8859-1"` 修改为 `@header['content-type'] = "text/html; charset=UTF-8"`。 
+将上面代码中的 `charset=ISO-8859-1` 修改为 `charset=UTF-8`，并重新运行 jekyll serve 命令。
  
 #### 2. github pages  
 github pages 是正常的，不清楚它做了什么处理。
