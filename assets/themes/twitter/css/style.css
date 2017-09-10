@@ -77,6 +77,10 @@ a:hover {
     border: 0;
     height: 40px;
 }
+
+.card p {
+    text-indent: 2em;
+}
  
 @media (max-width:480px) {
     .container-narrow {
