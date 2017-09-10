@@ -5,6 +5,7 @@ html, body{
 }
 body{ 
 	background: url("img/body_bg.png") repeat;
+    background-color: #ECECEC;
 	position: relative;   /*重要！保证footer是相对于wapper位置绝对*/  
     height: auto;          /* 保证页面能撑开浏览器高度时显示正常*/  
     min-height: 100% ; /* IE6不支持，IE6要单独配置*/ 
@@ -147,6 +148,7 @@ a:hover {
   font-size: 0.8em; }
 
 .tag_box a:hover {
+  color: rgb(222,106,115);
   background-color: #e5e5e5; }
 
 .tag_box a.active {
