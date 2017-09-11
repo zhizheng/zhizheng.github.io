@@ -39,7 +39,7 @@
     <div class="navbar">
       <div class="navbar-inner">
        <div class="nav-narrow">
-          <a class="brand" href="{{ HOME_PATH }}"><img src="{{ BASE_PATH }}/logo.png" alt="" /><span>{{ site.title }}</span></a>
+          <a class="brand" href="{{ HOME_PATH }}"><span>{{ site.title }}</span></a>
           <ul class="nav">
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
@@ -58,7 +58,7 @@
 	<div class="footer">
 		<div class="container">
 			<div class="row">
-				<p class="copyright text-center">Copyright &copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. Powered by <a href="https://github.com/enml/blog/tree/jekyll-blog" target="_blank" rel="nofollow noopener noreferrer">jekyll blog</a>.
+				<p class="copyright text-center">Copyright &copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. Powered by <a href="https://github.com/enml/blog/tree/jekyll-blog" target="_blank" rel="nofollow noopener noreferrer">jekyll blog</a>.&nbsp;<a href="{{ BASE_PATH }}/rss.xml" title="订阅"><i class="fa fa-rss"></i></a>
 				</p>
 			</div>
 		</div>
