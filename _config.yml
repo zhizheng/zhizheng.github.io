@@ -1,7 +1,8 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-#baseurl: /blog
-permalink: /:year/:month/:day/:title/
+# baseurl: /blog
+# permalink: /:year/:month/:day/:title/
+permalink: /:title/
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
@@ -16,7 +17,7 @@ safe: false
 title : 爱知笔记
 tagline: Site Tagline
 author :
-  name : Zhang Zhizheng
+  name : IZhi.Org
   email : zhizheng118@gmail.com
   github : username
   twitter : username
@@ -30,7 +31,6 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-# production_url : https://zhizheng.github.io/blog/
 production_url : http://izhi.org
 
 # plugins
@@ -67,7 +67,6 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #      This means always setting the protocol (http|https) or prefixing with "/"
-  # BASE_PATH : https://zhizheng.github.io
   # BASE_PATH : /blog
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
@@ -75,9 +74,7 @@ JB :
   #
   # Override this by defining an absolute path to assets here.
   # ex: 
-  #   http://s3.amazonaws.com/yoursite/themes/watermelon
-  #   /assets
-  # ASSET_PATH : https://zhizheng.github.io/assets/themes/twitter
+  #   http://s3.amazonaws.com/yoursite/themes/watermelon/assets
   # ASSET_PATH : /blog/assets/themes/twitter
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
