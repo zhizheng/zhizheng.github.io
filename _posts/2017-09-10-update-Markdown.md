@@ -7,7 +7,6 @@ category : default
 tagline: "Supporting tagline"
 tags : [Markdown]
 ---
-{% include JB/setup %}
 # Markdown 格式调整
 ---
 Markdown 格式比较乱，稍微调整了下，还有待学习提高。

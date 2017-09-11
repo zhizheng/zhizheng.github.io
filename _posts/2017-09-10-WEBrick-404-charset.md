@@ -7,7 +7,6 @@ category : it
 tagline: "Supporting tagline"
 tags : [jekyll,WEBrick,404,charset]
 ---
-{% include JB/setup %}
 # WEBrick 404 charset
 ---
 WEBrick 遇到 404 错误时，返回错误编码。 

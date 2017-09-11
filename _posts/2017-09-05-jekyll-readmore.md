@@ -7,7 +7,6 @@ category : it
 tagline: "Supporting tagline"
 tags : [jekyll,readmore]
 ---
-{% include JB/setup %}
 # jekyll 摘要实现
 ---
 目前，可以实现 jekyll 摘要功能的方法主要有三种。 

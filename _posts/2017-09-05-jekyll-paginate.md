@@ -7,7 +7,6 @@ category : it
 tagline: "Supporting tagline"
 tags : [jekyll,paginate]
 ---
-{% include JB/setup %}
 # jekyll 分页实现
 ---
 ## 一、实现方法

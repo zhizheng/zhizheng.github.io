@@ -7,7 +7,6 @@ category : default
 tagline: "Supporting tagline"
 tags : [default]
 ---
-{% include JB/setup %}
 # 更换域名
 ---
 换了个短域名，站点名称也改为“爱知笔记”吧。

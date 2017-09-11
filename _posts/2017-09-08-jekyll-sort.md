@@ -7,7 +7,6 @@ category : it
 tagline: "Supporting tagline"
 tags : [jekyll,sort]
 ---
-{% include JB/setup %}
 # jekyll sort
 ---
 ## 一、导航排序

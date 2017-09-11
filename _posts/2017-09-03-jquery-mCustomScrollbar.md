@@ -7,7 +7,6 @@ category : it
 tagline: "Supporting tagline"
 tags : [jQuery,scrollbar,plugin]
 ---
-{% include JB/setup %}
 # jQuery 滚动条插件
 ---
 当页面出现滚动条时，页面内容会向左发生偏移，mCustomScrollbar 插件可以解决这个问题。

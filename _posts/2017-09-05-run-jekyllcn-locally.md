@@ -7,7 +7,6 @@ category : it
 tagline: "Supporting tagline"
 tags : [jekyll,jekyllcn,windows]
 ---
-{% include JB/setup %}
 # 本地运行 jekyllcn
 ---
 #### 1. 下载源码

@@ -7,7 +7,6 @@ category : it
 tagline: "Supporting tagline"
 tags : [hexo,blog]
 ---
-{% include JB/setup %}
 # hexo 初探
 ---
 今天在 linux 主机上安装了 hexo，并按官方文档做了一个最简单的 blog。

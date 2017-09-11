@@ -7,7 +7,6 @@ category : it
 tagline: "Supporting tagline"
 tags : [html,footer,bottom]
 ---
-{% include JB/setup %}
 # html 页脚永远保持在底部
 ---
 当页面内容不足一屏时，页脚就会跑到屏幕中间去，体验效果不好。

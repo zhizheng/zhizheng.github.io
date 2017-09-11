@@ -196,6 +196,11 @@ a:hover {
 	margin-right: 10px;
 }
 
+/* about */
+.about a {
+    text-indent: 0em;
+}
+
 /* footer */
 .footer {
 	position: absolute;

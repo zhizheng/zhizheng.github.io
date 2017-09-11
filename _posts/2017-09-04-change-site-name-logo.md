@@ -7,7 +7,6 @@ category : default
 tagline: "Supporting tagline"
 tags : [default]
 ---
-{% include JB/setup %}
 # 修改站点名称和 logo
 ---
 站点名称修改为“羽毛笔记”。

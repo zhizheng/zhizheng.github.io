@@ -7,7 +7,6 @@ category : it
 tagline: "Supporting tagline"
 tags : [jekyll,sitemap]
 ---
-{% include JB/setup %}
 # jekyll sitemap
 ---
 网站地图分为 txt, html, xml 等格式，本文介绍 xml 格式，名称一般为  sitemap.xml。

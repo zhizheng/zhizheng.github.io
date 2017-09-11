@@ -7,7 +7,6 @@ category : it
 tagline: "Supporting tagline"
 tags : [jQuery,top]
 ---
-{% include JB/setup %}
 # jQuery 返回顶部插件
 ---
 ## 一、插件使用
