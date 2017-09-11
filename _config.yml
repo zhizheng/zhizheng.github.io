@@ -2,7 +2,7 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 # baseurl: /blog
 # permalink: /:year/:month/:day/:title/
-permalink: /:title/
+permalink: /post/:title/
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
