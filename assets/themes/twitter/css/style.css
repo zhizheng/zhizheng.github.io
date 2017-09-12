@@ -39,7 +39,7 @@ a:hover {
 .nav-narrow{  
   margin: 0 auto;
   max-width: 900px; 
-  min-height: 47px;
+  min-height: 47px; /* 响应式导航 */
   vertical-align: middle;
 }
 
@@ -51,6 +51,10 @@ a:hover {
 .navbar .btn {
     float: right;
     margin: 9px 15px 9px auto;
+}
+
+.navbar .nav>li>a {  
+	height: 27px; /* 占满导航栏高度 */
 }
 
 @media (max-width: 979px) {
