@@ -38,7 +38,9 @@ a:hover {
 
 .nav-narrow{  
   margin: 0 auto;
-  max-width: 900px;  
+  max-width: 900px; 
+  min-height: 47px;
+  vertical-align: middle;
 }
 
 .navbar .brand {
@@ -46,9 +48,23 @@ a:hover {
     font-weight: bold;
 }
 
-.navbar .nav {  
-	float: right; 
-	margin: 0;
+.navbar .btn {
+    float: right;
+    margin: 9px 15px 9px auto;
+}
+
+@media (max-width: 979px) {
+    .nav-collapse .nav {
+        float: none;
+        margin: 0;
+    }
+}
+
+@media (min-width: 980px) {
+    .nav-collapse .nav {
+        float: right;
+        margin: 0;
+    }
 }
 
 /* page container -- card style -- */
