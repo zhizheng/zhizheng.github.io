@@ -36,9 +36,9 @@ sitemap:
       {% endif %}
         <li><a class="fa fa-th" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">所有文档</a></li>
       {% if paginator.next_page %}
-        <li class="next"><a href="{{ BASE_PATH }}{{ paginator.next_page_path }}">下一页<i class="fa fa-arrow-circle-right"></i></a></li>
+        <li class="next"><a class="fa fa-arrow-circle-right-after" href="{{ BASE_PATH }}{{ paginator.next_page_path }}">下一页</a></li>
       {% else %}
-        <li class="next disabled"><a>下一页<i class="fa fa-arrow-circle-right"></i></a>
+        <li class="next disabled"><a class="fa fa-arrow-circle-right-after">下一页</a>
       {% endif %}
       </ul>
   </div>

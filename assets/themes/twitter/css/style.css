@@ -20,10 +20,6 @@ a:hover {
 .text-center {
     text-align: center;
 }
-
-.fa.fa-arrow-circle-right{
-    margin-right: 15px;
-}
  
 /* navbar */
 .navbar {
@@ -188,32 +184,8 @@ a:hover {
 }
 
 /* pagination */
-.pagination .left {
-	width: 100px;
-	float: left;
-	text-align: left;
-}
-
-.pagination .middle {
-	position: absolute;
-	left: 100px;
-	right: 100px;
-	text-align: center;
-	z-index: -1;
-}
-
-.pagination .right {
-	width: 100px;
-	float: right;
-	text-align: right;
-}
-
-.pagination .previous {
-	margin-left: 10px;
-}
-
-.pagination .next {
-	margin-right: 10px;
+.fa-arrow-circle-right-after:after {/* chrome 浏览器中 span 无法撑开 a */
+  content: '\f0a9';
 }
 
 /* about */
