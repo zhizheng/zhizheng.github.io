@@ -23,9 +23,9 @@ tags : [chrome,a,span]
   {% endif %}
     <li><a class="fa fa-th" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">所有文档</a></li>
   {% if page.next %}
-    <li class="next"><a class="fa fa-arrow-circle-right-after" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">后一篇</a></li>
+    <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">后一篇<span class="fa fa-arrow-circle-right"></span></a></li>
   {% else %}
-    <li class="next disabled"><a class="fa fa-arrow-circle-right-after">后一篇</a>
+    <li class="next disabled"><a>后一篇<span class="fa fa-arrow-circle-right"></span></a>
   {% endif %}
   </ul>
 </div>{% endraw %}
