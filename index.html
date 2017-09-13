@@ -30,15 +30,15 @@ sitemap:
   <div class="pagination">
       <ul class="pull-right">
       {% if paginator.previous_page %}
-        <li class="prev"><a class="fa fa-arrow-circle-left" href="{{ BASE_PATH }}{{ paginator.previous_page_path }}">前一页</a></li>
+        <li class="prev"><a class="fa fa-arrow-circle-left" href="{{ BASE_PATH }}{{ paginator.previous_page_path }}">上一页</a></li>
       {% else %}
-        <li class="prev disabled"><a class="fa fa-arrow-circle-left">前一页</a></li>
+        <li class="prev disabled"><a class="fa fa-arrow-circle-left">上一页</a></li>
       {% endif %}
         <li><a class="fa fa-th" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">所有文档</a></li>
       {% if paginator.next_page %}
-        <li class="next"><a href="{{ BASE_PATH }}{{ paginator.next_page_path }}">后一页<i class="fa fa-arrow-circle-right"></i></a></li>
+        <li class="next"><a href="{{ BASE_PATH }}{{ paginator.next_page_path }}">下一页<i class="fa fa-arrow-circle-right"></i></a></li>
       {% else %}
-        <li class="next disabled"><a>后一页<i class="fa fa-arrow-circle-right"></i></a>
+        <li class="next disabled"><a>下一页<i class="fa fa-arrow-circle-right"></i></a>
       {% endif %}
       </ul>
   </div>
