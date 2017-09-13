@@ -28,26 +28,18 @@ sitemap:
 {% if paginator.total_pages > 1 %}
   <!-- Pagination links -->
   <div class="pagination">
-    <div class="left">
+      <ul class="pull-right">
       {% if paginator.previous_page %}
-      <a href="{{ BASE_PATH }}/" class="first">首页</a>
-      <a href="{{ paginator.previous_page_path }}" class="previous">前一页</a>
+        <li class="prev"><a class="fa fa-arrow-circle-left" href="{{ BASE_PATH }}{{ paginator.previous_page_path }}">前一页</a></li>
       {% else %}
-      <span class="first">首页</span>
-      <span class="previous">前一页</span>
+        <li class="prev disabled"><a class="fa fa-arrow-circle-left">前一页</a></li>
       {% endif %}
-    </div>
-    <div class="middle">
-      <span class="page_number">第 {{ paginator.page }} 页/共 {{ paginator.total_pages }} 页</span>
-    </div>
-    <div class="right">
+        <li><a class="fa fa-th" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">所有文档</a></li>
       {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">后一页</a>
-      <a href="{{ BASE_PATH }}/{{site.paginate_path | split:':' | first }}{{ paginator.total_pages }}/" class="last">尾页</a>
+        <li class="next"><a href="{{ BASE_PATH }}{{ paginator.next_page_path }}">后一页<i class="fa fa-arrow-circle-right"></i></a></li>
       {% else %}
-      <span class="next">后一页</span>
-      <span class="last">尾页</span>
+        <li class="next disabled"><a>后一页<i class="fa fa-arrow-circle-right"></i></a>
       {% endif %}
-    </div>
+      </ul>
   </div>
 {% endif %}
