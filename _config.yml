@@ -8,7 +8,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
 excerpt_separator: '<!-- more -->'
 paginate: 10
-paginate_path: "index:num/"
+paginate_path: "index/:num/"
 safe: false
 
 # Themes are encouraged to use these universal variables 
