@@ -32,11 +32,11 @@ tags : [chrome,a,span]
 ```
 
 期望结果  
-![normal]({{ BASE_PATH }}/assets/images/posts/chrome_a_span_normal.png)  
+![图片加载中......]({{ BASE_PATH }}/assets/images/posts/chrome_a_span_normal.png)  
 <!-- more -->
 
 经实验，在 Firefox 和 Edge 中达到预期效果，在 Chrome 中显示有问题（右侧缺失）  
-![normal]({{ BASE_PATH }}/assets/images/posts/chrome_a_span_error.png)  
+![图片加载中......]({{ BASE_PATH }}/assets/images/posts/chrome_a_span_error.png)  
 
 首先想到的解决方法是添加 css 样式  
 ```
@@ -46,7 +46,7 @@ tags : [chrome,a,span]
 ```
 
 结果在 Chrome 中达到预期效果，在 Firefox 和 Edge 中显示有问题（右侧多出一部分）  
-![normal]({{ BASE_PATH }}/assets/images/posts/chrome_a_span_error2.png)  
+![图片加载中......]({{ BASE_PATH }}/assets/images/posts/chrome_a_span_error2.png)  
 
 ## 二、解决方法
 #### 1. 添加 css 样式
