@@ -1,13 +1,13 @@
 ---
 layout: post
-title: jquery select2 设置初始值
+title: jQuery select2 设置初始值
 date: 2017-09-16 02:25:02 +0800
 lastmod: 2017-09-16 02:25:02 +0800
 category : it
 tagline: "Supporting tagline"
 tags : [jQuery,select2]
 ---
-# jquery select2 设置初始值
+# jQuery select2 设置初始值
 ---
 jquery select2 设置初始值主要有两种方法，以下两种方法中，均设置 option 列表中第一个 option 为选中项。
 
