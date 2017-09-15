@@ -184,8 +184,12 @@ a:hover {
 }
 
 /* pagination */
+.pagination ul>li>a,.pagination ul>li>span {
+    border-left-width:1px;
+}
+
 .fa-arrow-circle-right-after:after {/* chrome 浏览器中 span 无法撑开 a */
-  content: '\f0a9';
+    content: '\f0a9';
 }
 
 /* about */
