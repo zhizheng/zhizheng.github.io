@@ -9,7 +9,7 @@ tags : [jsp,int,Integer]
 ---
 # jsp 文件里 Integer 转 int 异常
 ---
-#### 1. Java 类
+#### 1. Java 类 User.java
 ```
 package org.izhizheng.bean;
 
@@ -47,7 +47,7 @@ public class User {
 ```
 <!-- more -->
 
-#### 2. jsp 文件
+#### 2. jsp 文件 index.jsp
 ``` 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
