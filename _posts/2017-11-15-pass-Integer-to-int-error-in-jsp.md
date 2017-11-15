@@ -80,4 +80,4 @@ public class User {
 ```
 
 #### 3. 运行结果
-![screenshot]({{ BASE_PATH }}/assets/images/posts/pass-Integer-to-int-error-in-jsp_result.png)
+![图片加载中......]({{ BASE_PATH }}/assets/images/posts/pass-Integer-to-int-error-in-jsp_result.png)

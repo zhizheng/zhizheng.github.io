@@ -13,8 +13,8 @@ tags : [jekyll,readmore]
  
 ## 一、方法介绍
 #### 1. Liquid Markup  
-在 _post/*.md 内容中加入标签 ![more1]({{ BASE_PATH }}/assets/images/posts/jekyll_more.png)，在首页内容中通过
-![more2]({{ BASE_PATH }}/assets/images/posts/jekyll_split_more.png)  
+在 _post/*.md 内容中加入标签 ![图片加载中......]({{ BASE_PATH }}/assets/images/posts/jekyll_more.png)，在首页内容中通过
+![图片加载中......]({{ BASE_PATH }}/assets/images/posts/jekyll_split_more.png)  
 标记显示摘要内容，不过经我试验，这种方法容易在 ReadMore 链接后多出一个 `</div>`。
   
 #### 2. Custom Plugin  
@@ -22,7 +22,7 @@ tags : [jekyll,readmore]
 <!-- more -->
 
 #### 3. Jekyll ReadMore  
-通过在网上搜索，发现 jekyll 官方就支持摘要功能，在 _config.yml 里指定摘要的分隔符 ![more3]({{ BASE_PATH }}/assets/images/posts/jekyll_excerpt_more.png)  在 _post/*.md 内容中加入标签 ![more4]({{ BASE_PATH }}/assets/images/posts/jekyll_more.png)，在首页内容中通过 `{% raw %}{{ post.excerpt }}{% endraw %}` 标记显示摘要内容。  
+通过在网上搜索，发现 jekyll 官方就支持摘要功能，在 _config.yml 里指定摘要的分隔符 ![图片加载中......]({{ BASE_PATH }}/assets/images/posts/jekyll_excerpt_more.png)  在 _post/*.md 内容中加入标签 ![图片加载中......]({{ BASE_PATH }}/assets/images/posts/jekyll_more.png)，在首页内容中通过 `{% raw %}{{ post.excerpt }}{% endraw %}` 标记显示摘要内容。  
 以上几种方法中，推荐使用第 3 种。
 
 ## 二、参考资料  
