@@ -9,7 +9,7 @@ tags : [jsp,int,Integer]
 ---
 # jsp 文件里 Integer 转 int 异常
 ---
-<font color="red">20171116 更新：Integer 和 int 是自动类型转化的，昨天的问题（int id = user.getId(); 异常）应该是 User user = new User(); 引起的。</font>
+<font color="red">20171116 更新：Integer 和 int 是自动类型转化的，昨天的问题（int id = user.getId(); 异常）应该是 id 没有初始化（如 User user = new User();）引起的。</font>
 
 #### 1. Java 类 User.java
 ```
