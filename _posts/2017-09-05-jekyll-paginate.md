@@ -118,5 +118,5 @@ plugins:
 }
 ```
 
-## 参考资料
+## 二、参考资料
 - [jekyll-liquid-syntax-documentation](https://alfred-sun.github.io/blog/2015/01/10/jekyll-liquid-syntax-documentation/#pagination){:target="_blank"}{:rel="nofollow noopener noreferrer"}  
