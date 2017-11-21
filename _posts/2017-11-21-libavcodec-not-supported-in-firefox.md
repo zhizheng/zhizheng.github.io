@@ -26,7 +26,7 @@ vi /etc/ld.so.conf
 ldconfig
 ```
 #### 2. 方法二：修改 Firefox 参数
-在地址栏中输入 about:config，将 media.libavcodec.allow-obsolete 的值由 true 修改为 false，重启浏览器。
+在地址栏中输入 about:config，将 media.libavcodec.allow-obsolete 的值由 false 修改为 true，重启浏览器。
 
 #### 3. 方法三：安装 backports 源 libavcodec
 系统原来带的是 libavcodec 53(53.35.0)，现在安装 libavcodec 55(55.34.1)
