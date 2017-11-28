@@ -33,6 +33,7 @@ ldconfig
 ```
 apt-get install -t wheezy-backports libavcodec55
 ```
+<!-- more -->
 
 #### 4. 结果  
 方法一不生效，方法二生效，方法三生效。
