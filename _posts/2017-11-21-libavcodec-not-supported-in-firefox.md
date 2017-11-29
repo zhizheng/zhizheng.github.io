@@ -11,10 +11,10 @@ tags : [libavcodec,firefox]
 ---
 libavcodec may be vulnerable or is not supported, and should be updated to play video
 
-#### 0. 环境说明  
+#### 1. 环境说明  
 操作系统：Debian 7 "Wheezy"(64-bit)，Firefox:57.0 (64-bit)，FFmpeg:3.4
 
-#### 1. 方法一：下载最新版 FFmpeg 源码，编译安装
+#### 2. 方法一：下载最新版 FFmpeg 源码，编译安装
 ```
 ./configure --prefix=/usr/local/ffmpeg ...
 make
@@ -25,19 +25,19 @@ vi /etc/ld.so.conf
 # /usr/local/ffmpeg/lib
 ldconfig
 ```
-#### 2. 方法二：修改 Firefox 参数
+#### 3. 方法二：修改 Firefox 参数
 在地址栏中输入 about:config，将 media.libavcodec.allow-obsolete 的值由 false 修改为 true，重启浏览器。
 
-#### 3. 方法三：安装 backports 源 libavcodec
+#### 4. 方法三：安装 backports 源 libavcodec
 系统原来带的是 libavcodec 53(53.35.0)，现在安装 libavcodec 55(55.34.1)
 ```
 apt-get install -t wheezy-backports libavcodec55
 ```
 <!-- more -->
 
-#### 4. 结果  
+#### 5. 结果  
 方法一不生效，方法二生效，方法三生效。
 
-#### 参考资料
+#### 6. 参考资料
 [Firefox —  Notes (50.0) Blocked versions of libavcodec older than 54.35.1](https://www.mozilla.org/en-US/firefox/50.0/releasenotes/){:target="_blank"}{:rel="nofollow noopener noreferrer"}
 
