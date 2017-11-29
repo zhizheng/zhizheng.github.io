@@ -2,7 +2,7 @@
 layout: post
 title: Linux SSH 免密
 date: 2017-11-29 15:37:25 +0800
-lastmod: 2017-11-29 15:01:37 +0800
+lastmod: 2017-11-29 15:37:25 +0800
 category : it
 tagline: "Supporting tagline"
 tags : [linux,ssh]
