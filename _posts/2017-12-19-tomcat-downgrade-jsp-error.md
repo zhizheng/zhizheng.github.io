@@ -22,4 +22,4 @@ java.lang.NoSuchMethodError: javax.servlet.jsp.tagext.TagInfo
 ```
 
 #### 4. 解决方案
-删除 work/Catalina/localhost/<web 程序名称> 目录后，刷新浏览器，页面访问正常。
+删除 work/Catalina/localhost/&lt;web 程序名称&gt; 目录后，刷新浏览器，页面访问正常。
