@@ -5,7 +5,7 @@ date: 2017-12-20 10:29:25 +0800
 lastmod: 2017-12-20 10:29:25 +0800
 category : it
 tagline: "Supporting tagline"
-tags : [js,parent,element]
+tags : [js,jQuery,parent]
 ---
 # js 获取父窗口中的元素
 ---
