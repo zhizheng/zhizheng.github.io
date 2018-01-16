@@ -1,14 +1,15 @@
 ---
 layout: post
-title: hexo 初探
+title: "hexo 初探"
 date: 2017-09-11 21:35:15 +0800
 lastmod: 2017-09-11 21:35:15 +0800
-category : it
-tagline: "Supporting tagline"
-tags : [hexo,blog]
+categories:
+  - it
+tags:
+  - hexo
+  - blog
 ---
-# hexo 初探
----
+
 今天在 linux 主机上安装了 hexo，并按官方文档做了一个最简单的 blog。
 ```
 npm install n -g

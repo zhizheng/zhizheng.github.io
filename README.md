@@ -1,5 +1,1 @@
-# jekyll blog
-
-* 基于jekyll的blog
-* 使用了bootstrap框架
-* 使用font-awesome进行修饰
+本站使用主题 [jekyll-theme-next](https://github.com/simpleyyt/jekyll-theme-next)，并在此基础上做了一定的配置修改。

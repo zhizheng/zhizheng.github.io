@@ -1,4 +1,6 @@
 ---
-layout: default
+layout: layout
 ---
-{% include themes/{{ site.JB.theme.name }}/post.html %}
+
+{% assign __ = site.data.languages[site.language] %}
+{% include post.html %}

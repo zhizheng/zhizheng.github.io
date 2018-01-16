@@ -1,16 +1,18 @@
 ---
 layout: post
-title: jekyll 分页实现
+title: "jekyll 分页实现"
 date: 2017-09-05 16:10:01 +0800
 lastmod: 2017-09-10 18:10:30 +0800
-category : it
-tagline: "Supporting tagline"
-tags : [jekyll,paginate]
+categories:
+  - it
+tags:
+  - jekyll
+  - paginate
+  - plugin
 ---
-# jekyll 分页实现
----
-## 一、实现方法
-#### 1. 配置 _config.yml  
+
+# 实现方法
+## 配置 _config.yml  
 ```
 paginate: 5
 paginate_path: "index:num/"
@@ -21,9 +23,9 @@ plugins:
 其中，第一页为“/”，第二页以后为“index2/”、“index3/”......  
 <!-- more -->
 
-#### 2. 修改分页页面  
+## 修改分页页面  
 原来读取文章内容使用
-```
+```html
 {% raw %}{% for post in site.posts %}
 <div class="card">
 	<div class="date_label">
@@ -42,7 +44,7 @@ plugins:
 {% endfor %}{% endraw %}
 ```
 现修改为
-```
+```html
 {% raw %}<!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <div class="card">
@@ -87,8 +89,8 @@ plugins:
 </div>{% endraw %}
 ```
 
-#### 3. css
-```
+## css
+```css
 .pagination .left {
 	width: 100px;
 	float: left;
@@ -118,5 +120,5 @@ plugins:
 }
 ```
 
-## 二、参考资料
+# 参考资料
 - [jekyll-liquid-syntax-documentation](https://alfred-sun.github.io/blog/2015/01/10/jekyll-liquid-syntax-documentation/#pagination){:target="_blank"}{:rel="nofollow noopener noreferrer"}  

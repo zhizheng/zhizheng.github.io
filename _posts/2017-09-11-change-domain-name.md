@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 更换域名
+title: "更换域名"
 date: 2017-09-11 01:53:10 +0800
 lastmod: 2017-09-11 01:53:10 +0800
-category : default
-tagline: "Supporting tagline"
-tags : [default]
+categories:
+  - site
+tags:
+  - domain
 ---
-# 更换域名
----
-换了个短域名，站点名称也改为“爱知笔记”吧。
+
+<del>换了个短域名，</del>站点名称也改为“爱知笔记”吧。

@@ -1,18 +1,19 @@
 ---
 layout: post
-title: jekyll sitemap
+title: "jekyll sitemap"
 date: 2017-09-10 05:10:01 +0800
 lastmod: 2017-09-10 18:10:30 +0800
-category : it
-tagline: "Supporting tagline"
-tags : [jekyll,sitemap]
+categories:
+  - it
+tags:
+  - jekyll
+  - sitemap
 ---
-# jekyll sitemap
----
+
 网站地图分为 txt, html, xml 等格式，本文介绍 xml 格式，名称一般为  sitemap.xml。
 
-## 一、示例文件
-```
+# 示例文件
+```xml
 ---
 layout: null
 title : Sitemap
@@ -45,6 +46,6 @@ title : Sitemap
 ```
 <!-- more -->
 
-## 二、参考资料：  
+# 参考资料  
 - [generating-a-sitemap-in-jekyll-without-a-plugin](http://davidensinger.com/2013/03/generating-a-sitemap-in-jekyll-without-a-plugin/){:target="_blank"}{:rel="nofollow noopener noreferrer"}
 - [https://en.wikipedia.org/wiki/Sitemaps](https://en.wikipedia.org/wiki/Sitemaps){:target="_blank"}{:rel="nofollow noopener noreferrer"}

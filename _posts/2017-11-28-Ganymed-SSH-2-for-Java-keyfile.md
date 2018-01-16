@@ -1,21 +1,23 @@
 ---
 layout: post
-title: Ganymed SSH-2 for Java 免密
+title: "Ganymed SSH-2 for Java 免密"
 date: 2017-11-28 19:01:25 +0800
 lastmod: 2017-11-28 19:01:25 +0800
-category : it
-tagline: "Supporting tagline"
-tags : [java,ssh,sftp]
+categories:
+  - it
+tags:
+  - java
+  - ssh
+  - sftp
 ---
-# Ganymed SSH-2 for Java 免密
----
+
 Ganymed SSH-2 for Java 是一个纯 Java 实现的 SHH2 库，使用它可以通过用户密码登录服务器，那么是否可以免密登录呢？答案是可以的，而且支持 SFTP。
 
-#### 1. 环境说明  
+# 环境说明  
 java version: 1.7.0_79, Ganymed SSH-2: build251beta1
 
-#### 2. 密码登录
-```
+# 密码登录
+```java
 String ip = "192.168.1.201";
 int port = 22;
 String username = "root";
@@ -32,8 +34,8 @@ if (isAuthenticated){
 ```
 <!-- more -->
 
-#### 3. 免密登录
-```
+# 免密登录
+```java
 String ip = "192.168.1.201";
 int port = 22;
 String username = "root";

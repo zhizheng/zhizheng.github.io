@@ -1,20 +1,22 @@
 ---
 layout: post
-title: 本地运行 jekyllcn
+title: "本地运行 jekyllcn"
 date: 2017-09-05 02:00:01 +0800
 lastmod: 2017-09-13 21:34:30 +0800
-category : it
-tagline: "Supporting tagline"
-tags : [jekyll,jekyllcn,windows]
+categories:
+  - it
+tags:
+  - jekyll
+  - jekyllcn
+  - windows
 ---
-# 本地运行 jekyllcn
----
-#### 1. 下载源码
+
+# 下载源码
 ```
 git clone https://github.com/xcatliu/jekyllcn.git
 ```
 
-#### 2. 安装依赖包
+# 安装依赖包
 ```
 cd jekyllcn
 bundle install
@@ -23,7 +25,7 @@ bundle install
 ~~gem update~~  
 <!-- more -->
 
-#### 3. 启动
+# 启动
 ```
 bundle exec rake site:preview
 ```
