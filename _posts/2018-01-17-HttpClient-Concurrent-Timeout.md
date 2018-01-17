@@ -11,9 +11,9 @@ tags:
 ---
 
 新建了一个 HttpClient 实例，使用 for 循环调用，结果报出以下错误，
-···java
+```java
 org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
-···
+```
 
 解决方法，修改连接池配置，增大连接数
 ```java
