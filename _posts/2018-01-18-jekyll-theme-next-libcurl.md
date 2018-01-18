@@ -81,7 +81,7 @@ plugins:
 
 ### 下载 curl 源码编译
 
-打开网页 https://curl.haxx.se/download.html，并选择一个源码包下载，如 [curl-7.57.0.zip](https://curl.haxx.se/download/curl-7.57.0.zip){:target="_blank"}{:rel="nofollow noopener noreferrer"}，解压包到 C:\curl-7.57.0，在终端（CMD 或 Powershell）下，切换到本机 DevKit目录，运行 msys.bat，此时会弹出一个 mingw 环境窗口，在 mingw 环境窗口中输入命令 `cd /c/curl-7.57.0/lib` 进入到 C:\curl-7.57.0\lib 目录，然后执行 `make -f Makefile.m32` 编译源码，编译完成后会在 lib 目录下会生成 libcurl.dll，将 libcurl.dll 放到系统 path 下，如 Ruby 安装目录 bin 中。
+打开网页 https://curl.haxx.se/download.html，并选择一个源码包下载，如 [curl-7.57.0.zip](https://curl.haxx.se/download/curl-7.57.0.zip){:target="_blank"}{:rel="nofollow noopener noreferrer"}，解压包到 C:\curl-7.57.0，在终端（CMD 或 Powershell）下，切换到本机 DevKit 目录，运行 msys.bat，此时会弹出一个 mingw 环境窗口，在 mingw 环境窗口中输入命令 `cd /c/curl-7.57.0/lib` 进入到 C:\curl-7.57.0\lib 目录，然后执行 `make -f Makefile.m32` 编译源码，编译完成后会在 lib 目录下会生成 libcurl.dll，将 libcurl.dll 放到系统 path 下，如 Ruby 安装目录 bin 中。
 
 
 
