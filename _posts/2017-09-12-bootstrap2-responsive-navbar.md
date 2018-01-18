@@ -2,7 +2,6 @@
 layout: post
 title: "Bootstrap 2 响应式导航"
 date: 2017-09-12 14:35:15 +0800
-lastmod: 2017-09-12 14:35:15 +0800
 categories:
   - it
 tags:

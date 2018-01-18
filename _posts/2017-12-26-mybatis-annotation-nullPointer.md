@@ -2,7 +2,6 @@
 layout: post
 title: "MyBatis 注解引发空指针异常"
 date: 2017-12-26 9:55:25 +0800
-lastmod: 2017-12-26 9:55:25 +0800
 categories:
   - it
 tags:

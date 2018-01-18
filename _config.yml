@@ -75,7 +75,7 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+favicon: /uploads/favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "blog,博客,个人博客"
@@ -239,7 +239,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /uploads/avatar.jpg
 
 
 # Table Of Contents in the Sidebar

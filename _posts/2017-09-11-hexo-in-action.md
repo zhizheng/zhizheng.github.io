@@ -2,7 +2,6 @@
 layout: post
 title: "hexo 初探"
 date: 2017-09-11 21:35:15 +0800
-lastmod: 2017-09-11 21:35:15 +0800
 categories:
   - it
 tags:

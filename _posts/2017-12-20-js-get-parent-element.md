@@ -2,7 +2,6 @@
 layout: post
 title: "js 获取父窗口中的元素"
 date: 2017-12-20 10:29:25 +0800
-lastmod: 2017-12-20 10:29:25 +0800
 categories:
   - it
 tags:

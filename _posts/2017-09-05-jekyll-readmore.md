@@ -2,7 +2,6 @@
 layout: post
 title: "jekyll 摘要实现"
 date: 2017-09-05 14:00:01 +0800
-lastmod: 2017-09-10 18:10:30 +0800
 categories:
   - it
 tags:
@@ -14,8 +13,8 @@ tags:
  
 # 方法介绍
 ## Liquid Markup  
-在 _post/*.md 内容中加入标签 ![图片加载中......]({{ BASE_PATH }}/assets/images/posts/jekyll_more.png)，在首页内容中通过
-![图片加载中......]({{ BASE_PATH }}/assets/images/posts/jekyll_split_more.png)  
+在 _post/*.md 内容中加入标签 ![图片加载中......]({{ site.baseurl }}/uploads/jekyll_more.png)，在首页内容中通过
+![图片加载中......]({{ site.baseurl }}/uploads/jekyll_split_more.png)  
 标记显示摘要内容，不过经我试验，这种方法容易在 ReadMore 链接后多出一个 `</div>`。
   
 ## Custom Plugin  
@@ -23,7 +22,7 @@ tags:
 <!-- more -->
 
 ## Jekyll ReadMore  
-通过在网上搜索，发现 jekyll 官方就支持摘要功能，在 _config.yml 里指定摘要的分隔符 ![图片加载中......]({{ BASE_PATH }}/assets/images/posts/jekyll_excerpt_more.png)  在 _post/*.md 内容中加入标签 ![图片加载中......]({{ BASE_PATH }}/assets/images/posts/jekyll_more.png)，在首页内容中通过 `{% raw %}{{ post.excerpt }}{% endraw %}` 标记显示摘要内容。  
+通过在网上搜索，发现 jekyll 官方就支持摘要功能，在 _config.yml 里指定摘要的分隔符 ![图片加载中......]({{ site.baseurl }}/uploads/jekyll_excerpt_more.png)  在 _post/*.md 内容中加入标签 ![图片加载中......]({{ site.baseurl }}/uploads/jekyll_more.png)，在首页内容中通过 `{% raw %}{{ post.excerpt }}{% endraw %}` 标记显示摘要内容。  
 以上几种方法中，推荐使用第 3 种。
 
 # 参考资料  

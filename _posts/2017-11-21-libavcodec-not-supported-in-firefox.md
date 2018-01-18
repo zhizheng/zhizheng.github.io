@@ -2,7 +2,6 @@
 layout: post
 title: "Firefox 提示 libavcodec 过时"
 date: 2017-11-21 15:39:25 +0800
-lastmod: 2017-11-21 15:39:25 +0800
 categories:
   - it
 tags:

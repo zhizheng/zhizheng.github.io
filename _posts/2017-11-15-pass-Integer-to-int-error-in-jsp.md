@@ -2,7 +2,6 @@
 layout: post
 title: "jsp 文件里 Integer 转 int 异常"
 date: 2017-11-15 23:25:25 +0800
-lastmod: 2017-11-16 12:36:25 +0800
 categories:
   - it
 tags:
@@ -84,4 +83,4 @@ public class User {
 ```
 
 # 运行结果
-![图片加载中......]({{ BASE_PATH }}/assets/images/posts/pass-Integer-to-int-error-in-jsp_result.png)
+![图片加载中......]({{ site.baseurl }}/uploads/pass-Integer-to-int-error-in-jsp_result.png)

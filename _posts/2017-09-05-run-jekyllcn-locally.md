@@ -2,7 +2,6 @@
 layout: post
 title: "本地运行 jekyllcn"
 date: 2017-09-05 02:00:01 +0800
-lastmod: 2017-09-13 21:34:30 +0800
 categories:
   - it
 tags:

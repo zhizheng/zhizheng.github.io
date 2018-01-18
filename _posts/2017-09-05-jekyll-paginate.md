@@ -2,7 +2,6 @@
 layout: post
 title: "jekyll 分页实现"
 date: 2017-09-05 16:10:01 +0800
-lastmod: 2017-09-10 18:10:30 +0800
 categories:
   - it
 tags:

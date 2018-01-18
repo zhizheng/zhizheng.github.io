@@ -2,7 +2,6 @@
 layout: post
 title: "Linux screen 命令"
 date: 2017-11-29 16:24:25 +0800
-lastmod: 2017-11-29 16:24:37 +0800
 categories:
   - it
 tags:

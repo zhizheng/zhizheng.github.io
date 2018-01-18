@@ -2,7 +2,6 @@
 layout: post
 title: "Chrome 中 span 无法撑开 a"
 date: 2017-09-14 01:38:36 +0800
-lastmod: 2017-09-14 01:38:36 +0800
 categories:
   - it
 tags:
@@ -34,11 +33,11 @@ tags:
 ```
 
 期望结果  
-![图片加载中......]({{ BASE_PATH }}/assets/images/posts/chrome_a_span_normal.png)  
+![图片加载中......]({{ site.baseurl }}/uploads/chrome_a_span_normal.png)  
 <!-- more -->
 
 经实验，在 Firefox 和 Edge 中达到预期效果，在 Chrome 中显示有问题（右侧缺失）  
-![图片加载中......]({{ BASE_PATH }}/assets/images/posts/chrome_a_span_error.png)  
+![图片加载中......]({{ site.baseurl }}/uploads/chrome_a_span_error.png)  
 
 首先想到的解决方法是添加 css 样式  
 ```css
@@ -48,7 +47,7 @@ tags:
 ```
 
 结果在 Chrome 中达到预期效果，在 Firefox 和 Edge 中显示有问题（右侧多出一部分）  
-![图片加载中......]({{ BASE_PATH }}/assets/images/posts/chrome_a_span_error2.png)  
+![图片加载中......]({{ site.baseurl }}/uploads/chrome_a_span_error2.png)  
 
 # 解决方法
 ## 添加 css 样式

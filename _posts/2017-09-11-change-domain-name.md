@@ -2,7 +2,6 @@
 layout: post
 title: "更换域名"
 date: 2017-09-11 01:53:10 +0800
-lastmod: 2017-09-11 01:53:10 +0800
 categories:
   - site
 tags:

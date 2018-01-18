@@ -2,7 +2,6 @@
 layout: post
 title: "jekyll sort"
 date: 2017-09-08 23:35:01 +0800
-lastmod: 2017-09-10 18:10:30 +0800
 categories:
   - it
 tags:
