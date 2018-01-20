@@ -10,12 +10,12 @@ tags:
   - windows
 ---
 
-# 下载源码
+## 下载源码
 ```
 git clone https://github.com/xcatliu/jekyllcn.git
 ```
 
-# 安装依赖包
+## 安装依赖包
 ```
 cd jekyllcn
 bundle install
@@ -24,7 +24,7 @@ bundle install
 ~~gem update~~  
 <!-- more -->
 
-# 启动
+## 启动
 ```
 bundle exec rake site:preview
 ```

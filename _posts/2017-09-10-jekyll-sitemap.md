@@ -11,7 +11,7 @@ tags:
 
 网站地图分为 txt, html, xml 等格式，本文介绍 xml 格式，名称一般为  sitemap.xml。
 
-# 示例文件
+## 示例文件
 ```xml
 ---
 layout: null
@@ -45,6 +45,6 @@ title : Sitemap
 ```
 <!-- more -->
 
-# 参考资料  
+## 参考资料  
 - [generating-a-sitemap-in-jekyll-without-a-plugin](http://davidensinger.com/2013/03/generating-a-sitemap-in-jekyll-without-a-plugin/){:target="_blank"}{:rel="nofollow noopener noreferrer"}
 - [https://en.wikipedia.org/wiki/Sitemaps](https://en.wikipedia.org/wiki/Sitemaps){:target="_blank"}{:rel="nofollow noopener noreferrer"}

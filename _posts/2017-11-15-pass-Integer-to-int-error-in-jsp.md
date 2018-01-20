@@ -12,7 +12,7 @@ tags:
 
 <font color="red">20171116 更新：Integer 和 int 是自动类型转化的，昨天的问题（int id = user.getId(); 异常）应该是 user 成员变量 id 没有初始化（如 User user = new User();）引起的。</font>
 
-# Java 类 User.java
+## Java 类 User.java
 ```java
 package org.izhizheng.bean;
 
@@ -50,7 +50,7 @@ public class User {
 ```
 <!-- more -->
 
-# jsp 文件 index.jsp
+## jsp 文件 index.jsp
 ``` html
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -82,5 +82,5 @@ public class User {
 </html>
 ```
 
-# 运行结果
+## 运行结果
 ![图片加载中......]({{ site.baseurl }}/uploads/pass-Integer-to-int-error-in-jsp_result.png)

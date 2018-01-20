@@ -27,7 +27,7 @@ httpClient = HttpClients.custom().setDefaultRequestConfig(config)
      .setMaxConnPerRoute(maxConnPerRoute).build(); 
 ```
 
-# 参考资料
+## 参考资料
 
 - [使用httpclient必须知道的参数设置及代码写法、存在的风险](http://jinnianshilongnian.iteye.com/blog/2089792){:target="_blank"}{:rel="nofollow noopener noreferrer"}
 - [HttpClient大并发下Timeout waiting for connection from pool优化方案](http://blog.csdn.net/falynn1220/article/details/50607789){:target="_blank"}{:rel="nofollow noopener noreferrer"}

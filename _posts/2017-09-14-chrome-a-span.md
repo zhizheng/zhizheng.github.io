@@ -12,7 +12,7 @@ tags:
 
 在 blog 正文下面添加前一篇和后一篇按钮，遇到浏览器兼容问题。
 
-# 问题描述
+## 问题描述
 代码
 ```html
 {% raw %}<div class="pagination clearfix">
@@ -49,14 +49,14 @@ tags:
 结果在 Chrome 中达到预期效果，在 Firefox 和 Edge 中显示有问题（右侧多出一部分）  
 ![图片加载中......]({{ site.baseurl }}/uploads/chrome_a_span_error2.png)  
 
-# 解决方法
-## 添加 css 样式
+## 解决方法
+### 添加 css 样式
 ```css
 .fa-arrow-circle-right-after:after {/* chrome 浏览器中 span 无法撑开 a */
   content: '\f0a9';
 }
 ```
-## 修改代码
+### 修改代码
 ```html
 {% raw %}<div class="pagination clearfix">
   <ul class="pull-right">

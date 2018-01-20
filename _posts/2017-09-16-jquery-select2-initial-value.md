@@ -11,7 +11,7 @@ tags:
 
 jquery select2 设置初始值主要有两种方法，以下两种方法中，均设置 option 列表中第一个 option 为选中项。
 
-# 给 option 元素添加 selected 属性
+## 方法一：给 option 元素添加 selected 属性
 ```html
 <select id="s2id">
    <option value="value1" selected="selected">text 1</option>
@@ -22,7 +22,7 @@ jquery select2 设置初始值主要有两种方法，以下两种方法中，�
 $('#s2id').select2();
 ```
 
-# 调用 js 给 select2 设置值
+## 方法二：调用 js 给 select2 设置值
 ```html
 <select id="s2id">
    <option value="value1">text 1</option>
