@@ -44,4 +44,4 @@ TCP   127.0.0.1:4000    0.0.0.0:0       LISTENING      1234
 ```
 可以看到，PID 为 1234 的进程占用了 4000 端口，在系统任务管理器中通过该 PID 查看进程信息，确认是程序 FoxitProtect.exe 占用了端口，直接杀死进程，再执行 3 中第一条命令就没问题了，同时可以正常访问 http://localhost:4000 了。  
 
-彻底的解决方法是直接到福昕 PDF 阅读器安装目录删除 FoxitProtect.exe <del>或者在系统服务中禁用 Foxit Service 服务</del>。禁用系统服务后，下次开启阅读器还会提示运行 FoxitProtect.exe。
+彻底的解决方法是直接到福昕 PDF 阅读器安装目录删除 FoxitProtect.exe~~ 或者在系统服务中禁用 Foxit Service 服务~~。禁用系统服务后，下次开启阅读器还会提示运行 FoxitProtect.exe。
