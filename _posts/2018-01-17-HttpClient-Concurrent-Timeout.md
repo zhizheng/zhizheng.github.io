@@ -3,11 +3,10 @@ layout: post
 title: "HttpClient 并发报 Timeout waiting for connection from pool"
 date: 2018-01-17 11:00:01 +0800
 categories:
-  - it
+  - HttpClient
 tags:
-  - HttpClient 
-  - Concurrent
-  - Timeout
+  - pool 
+  - timeout
 ---
 
 新建了一个 HttpClient 实例，使用 for 循环调用，结果报出以下错误

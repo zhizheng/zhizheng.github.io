@@ -3,9 +3,8 @@ layout: post
 title: "Linux screen 命令"
 date: 2017-11-29 16:24:25 +0800
 categories:
-  - it
+  - Linux
 tags:
-  - linux
   - command
   - screen
 ---
@@ -14,15 +13,18 @@ Screen is a full-screen window manager that multiplexes a physical terminal betw
 <!-- more -->
 
 ## 创建会话
+
 ```
 screen -S test1
 ```
 
 ## 会话共享
+
 ```
 screen -x test1
 ```
 
 ## 参考资料
+
 - [GNU's Screen 官方站点](http://www.gnu.org/software/screen/){:target="_blank"}{:rel="nofollow noopener noreferrer"}  
 - [linux screen 命令详解](https://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html){:target="_blank"}{:rel="nofollow noopener noreferrer"}  

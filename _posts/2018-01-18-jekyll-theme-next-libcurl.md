@@ -3,13 +3,10 @@ layout: post
 title: "本地调试 jekyll 主题时报 Could not open library 'libcurl.dll'"
 date: 2018-01-18 12:23:01 +0800
 categories:
-  - it
-tags:
-  - jekyll 
+  - Jekyll
+tags: 
   - theme
-  - next
-  - windows
-  - libcurl.dll
+  - debug
 ---
 
 Windows 本地调试 jekyll-theme-next 主题时

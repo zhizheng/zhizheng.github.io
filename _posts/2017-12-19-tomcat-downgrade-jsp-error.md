@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "tomcat 降级导致 jsp 报错"
+title: "Tomcat 降级导致 jsp 报错"
 date: 2017-12-19 10:25:25 +0800
 categories:
-  - it
+  - Tomcat
 tags:
-  - tomcat
   - jsp
-  - work
+  - error
 ---
 
 ## 版本说明

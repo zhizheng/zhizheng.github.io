@@ -3,18 +3,20 @@ layout: post
 title: "Linux SSH 免密"
 date: 2017-11-29 15:37:25 +0800
 categories:
-  - it
+  - Linux
 tags:
-  - linux
   - ssh
+  - password
 ---
 
 ## 规划设定
-- 服务器：server1 server2 server3，其中 server1 是部署机，server2 server3 是目标机
-- 目标：服务器 server1 免密登录 server1 server2 server3（server1 免密登录 server1 是将 server1 也当成一个目标机使用）
-- 假定：所有主机使用用户名为 user
+
+* 服务器：server1 server2 server3，其中 server1 是部署机，server2 server3 是目标机
+* 目标：服务器 server1 免密登录 server1 server2 server3（server1 免密登录 server1 是将 server1 也当成一个目标机使用）
+* 假定：所有主机使用用户名为 user
 
 ## 免密设置
+
 ```
 # 在 server1 上生成公钥和私钥，下面演示使用 dsa 加密算法，还有 rsa 等加密算法，具体使用哪种请综合安全性等自行选择
 user@server1:~$ ssh-keygen -t dsa
@@ -49,5 +51,6 @@ user@server1:~$ ssh user@server3
 <!-- more -->
 
 ## 参考资料
+
 - [Linux/UNIX下使用ssh-keygen设置SSH无密码登录](http://blog.csdn.net/leexide/article/details/17252369){:target="_blank"}{:rel="nofollow noopener noreferrer"}  
 - [SSH 密钥类型的的选择（RSA， DSA or Other）](http://blog.sina.com.cn/s/blog_6f31085901015agu.html){:target="_blank"}{:rel="nofollow noopener noreferrer"}  

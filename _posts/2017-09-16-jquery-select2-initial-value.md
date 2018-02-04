@@ -3,9 +3,8 @@ layout: post
 title: "jQuery select2 设置初始值"
 date: 2017-09-16 02:25:02 +0800
 categories:
-  - it
-tags:
   - jQuery
+tags:
   - select2
 ---
 

@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "jsp 文件里 Integer 转 int 异常"
+title: "JSP 文件里 Integer 转 int 异常"
 date: 2017-11-15 23:25:25 +0800
 categories:
-  - it
+  - JSP
 tags:
-  - jsp
   - int
   - Integer
 ---
@@ -13,8 +12,9 @@ tags:
 <font color="red">20171116 更新：Integer 和 int 是自动类型转化的，昨天的问题（int id = user.getId(); 异常）应该是 user 成员变量 id 没有初始化（如 User user = new User();）引起的。</font>
 
 ## Java 类 User.java
+
 ```java
-package org.izhizheng.bean;
+package com.test.bean;
 
 public class User {
 
@@ -51,10 +51,11 @@ public class User {
 <!-- more -->
 
 ## jsp 文件 index.jsp
+
 ``` html
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="org.izhizheng.bean.User" %>  
+<%@ page import="com.test.bean.User" %>  
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -83,4 +84,5 @@ public class User {
 ```
 
 ## 运行结果
-![图片加载中......]({{ site.baseurl }}/uploads/pass-Integer-to-int-error-in-jsp_result.png)
+
+![图片加载中......]({{ site.baseurl }}/uploads/2017/11/pass-Integer-to-int-error-in-jsp_result.png)

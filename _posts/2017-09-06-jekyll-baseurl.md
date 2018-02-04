@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "jekyll baseurl"
+title: "Jekyll baseurl"
 date: 2017-09-06 01:00:01 +0800
 categories:
-  - it
+  - Jekyll
 tags:
-  - jekyll
   - baseurl
 ---
 

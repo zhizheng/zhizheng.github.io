@@ -3,7 +3,7 @@ layout: post
 title: "修改站点名称和 logo"
 date: 2017-09-04 12:13:37 +0800
 categories:
-  - site
+  - Site
 tags:
   - name
   - logo

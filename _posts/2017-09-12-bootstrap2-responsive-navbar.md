@@ -3,9 +3,8 @@ layout: post
 title: "Bootstrap 2 响应式导航"
 date: 2017-09-12 14:35:15 +0800
 categories:
-  - it
+  - Bootstrap
 tags:
-  - bootstrap
   - navbar
   - responsive
 ---
@@ -13,7 +12,9 @@ tags:
 本文针对的是 Bootstrap 2，Bootstrap 3 响应式导航请自行搜索。
 
 ## 使用方法
+
 ### 在页面中加入依赖的文件
+
 ```html
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
@@ -22,6 +23,7 @@ tags:
 ```
 
 ### 导航示例代码
+
 ```html
 <div class="navbar">
   <div class="navbar-inner">
@@ -49,5 +51,5 @@ tags:
 <!-- more -->
 
 ## 参考资料
-- [响应式导航条](http://v2.bootcss.com/components.html#navbar){:target="_blank"}{:rel="nofollow noopener noreferrer"}
 
+- [响应式导航条](http://v2.bootcss.com/components.html#navbar){:target="_blank"}{:rel="nofollow noopener noreferrer"}
