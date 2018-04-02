@@ -7,6 +7,7 @@ categories:
 tags:
   - password
   - expire
+  - command
 ---
 
 今天，在工作中遇到了 linux 用户密码过期的问题，使用 chage 命令可以设置用户账号和密码的有效期。
