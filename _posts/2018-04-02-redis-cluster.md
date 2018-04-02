@@ -29,6 +29,8 @@ cd ~/redis-3.2.11/redis
 cp mkreleasehdr.sh redis-benchmark redis-check-aof redis-check-dump redis-cli redis-server redis-trib.rb /usr/local/redis-cluster/bin
 ```
 
+<!-- more -->
+
 创建 6 个 redis 实例目录，并将 redis 配置文件复制到各实例目录
 
 ```shell
