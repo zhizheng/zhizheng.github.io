@@ -25,7 +25,7 @@ make
 
 ```shell
 mkdir -p /usr/local/redis-cluster/bin
-cd ~/redis-3.2.11/redis
+cd ~/redis-3.2.11/src
 cp mkreleasehdr.sh redis-benchmark redis-check-aof redis-check-dump redis-cli redis-server redis-trib.rb /usr/local/redis-cluster/bin
 ```
 
