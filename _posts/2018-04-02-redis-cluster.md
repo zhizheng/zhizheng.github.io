@@ -104,7 +104,7 @@ gem install redis
 /usr/local/redis-cluster/bin/redis-trib.rb create --replicas 1 192.168.1.6:9001 192.168.1.6:9002 192.168.1.6:9003 192.168.1.6:9004 192.168.1.6:9005 192.168.1.6:9006
 ```
 
-连接集群节点，注意比连接单实例时了一个 -c 参数
+连接集群节点，注意比连接单实例时多了一个 -c 参数
 
 ```shell
 /usr/local/redis-cluster/bin/redis-cli -h 192.168.1.6 -p 9001 -c
