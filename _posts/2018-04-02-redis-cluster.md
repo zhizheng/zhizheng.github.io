@@ -245,7 +245,7 @@ public static int crc16(String key) {
     byte[] bytes = key.getBytes();
     int crc = 0x0000;
     for (byte b : bytes) {
-        crc = (crc << 8) ^ table[((crc >> 8) ^ b) & 0x00ff];
+        crc = (crc << 8) ^ table[((crc >> 8) ^ b) & 0x00FF];
     } 
     crc = crc & 0x3FFF;
 
@@ -255,7 +255,7 @@ public static int crc16(String key) {
 public static void main(String[] args) {
     String key = "key1";
     int slot = slot(key);
-    System.out.print("slot=" + slot); // 输出 9189，和上一节中的数据存储测试结果相同
+    System.out.print("slot=" + slot); // 输出 slot=9189，和上一节中的数据存储测试结果相同
 }
 ```
 
