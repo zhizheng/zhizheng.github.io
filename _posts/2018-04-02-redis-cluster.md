@@ -6,6 +6,9 @@ categories:
   - Redis
 tags:
   - cluster
+  - java
+  - client
+  - crc16
 ---
 
 ## 源码下载
