@@ -146,18 +146,18 @@ e74db54eb4fa9dde324988e44bb3919129f944c8 192.168.1.6:9006 slave de0928f00ac377bf
 de0928f00ac377bf5b7806d088808f31804923eb 192.168.1.6:9003 master - 0 1522674426818 3 connected 10923-16383
 ```
 
-从集群信息可以看出，9001 9004 分配的槽为 0-5460，9002 9005 分配的槽为 5461-10922，9003 9006 分配的槽为 10923-16383。
+## 客户端连接读写
 
-数据存储测试（数据存储的槽编号通过 key 计算出来，算法 CRC16('key-name') % 16384，java 实现代码见下一小节）
+客户端以 redis-cli 为例，数据读写测试脚本
+
 ```shell
 $ ./redis-cli -h 192.168.1.6 -p 9001 -c
 192.168.1.6:9001> set key1 value1
 -> Redirected to slot [9189] located at 192.168.1.6:9002
 OK
-192.168.1.6:9002>
+192.168.1.6:9002> get key1
+"value1"
 ```
-
-## 客户端连接读写
 
 客户端以 jedis 为例，当前版本
 
@@ -171,7 +171,7 @@ OK
 </dependency>
 ```
 
-数据读写测试代码
+jedis 数据读写测试代码
 
 ```java
 Set<HostAndPort> jedisClusterNodes = new HashSet<HostAndPort>();
@@ -188,7 +188,13 @@ String value = jc.get("key");
 // jc.close();
 ```
 
-key 放入哪个槽位置计算，java 实现代码
+## 槽分配及位置确定
+
+从上面集群信息中可以看出，主从实例 9001 9004 分配的槽范围为 0-5460，主从实例 9002 9005 分配的槽范围为 5461-10922，主从实例 9003 9006 分配的槽范围为 10923-16383。
+
+当用户通过客户端(redis-cli 或 jedis)向集群存入键值对时，数据存储的槽编号通过 key 计算出来，算法 CRC16(key) % 16384。
+
+算法 CRC16(key) % 16384 的 java 代码实现
 
 ```java
 /**
@@ -258,7 +264,7 @@ public static int crc16(String key) {
 public static void main(String[] args) {
     String key = "key1";
     int slot = slot(key);
-    System.out.print("slot=" + slot); // 输出 slot=9189，和上一节中的数据存储测试结果相同
+    System.out.print("slot=" + slot); // 输出 slot=9189
 }
 ```
 
