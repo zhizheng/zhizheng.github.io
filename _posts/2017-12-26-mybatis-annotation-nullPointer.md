@@ -12,23 +12,23 @@ tags:
 ## 数据库表字段含有下划线
 
 ```
-filed_name
+field_name
 ```
 
 ## Java 对象属性使用驼峰命名规则
 
 ```
-filedName
+fieldName
 ```
 
 ## MyBatis 注解（错误）
 
 ```java
-@Select("select filed_name from table_name")
+@Select("select field_name from table_name")
 ```
 
 ## MyBatis 注解（正确）
 
 ```java
-@Select("select filed_name as filedName from table_name")
+@Select("select field_name as fieldName from table_name")
 ```
