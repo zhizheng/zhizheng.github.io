@@ -7,9 +7,13 @@ type: about
 
 ## 关于我
 
-一个健忘的码农，为防止遗忘，特记录于此。
+一个健忘的码农。
 
 ## 关于本站
+
+记录学习或工作中遇到的问题和解决方法，以及其它我认为比较重要的知识。
+
+## 站点历史
 
 * 2018.05.14 强制开启 https 访问
 * 2018.01.16 修改主题为 [jekyll-theme-next](https://github.com/Simpleyyt/jekyll-theme-next/){:target="_blank"}{:rel="noopener noreferrer"}
